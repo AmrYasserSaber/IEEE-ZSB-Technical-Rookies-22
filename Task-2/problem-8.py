@@ -10,8 +10,7 @@ first_val = list(e.values())[0]
 first_key=list(e.keys())[0]
 removed_key = e.pop(first_key)
 removed_value=first_val
-l=len(e)-1
-for c in range (0,l):
+for c in range (0,len(e)-1):
     if (list(e.values())[0])==removed_value:
         removed_value=e.pop(list(e.keys())[0])
 result_val=list(e.values())[0]
