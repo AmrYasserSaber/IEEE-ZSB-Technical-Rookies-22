@@ -11,7 +11,6 @@ while hits<3:
     for i in range(0,3):
         if u[i]==n[i]:
             hits+=1
-    for i in range (0,3):
         for c in range (0,3):
             if u[i]==n[c]:
                 misses-=1
