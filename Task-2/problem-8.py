@@ -1,9 +1,9 @@
-n=int(input("input the number of the students"))
+n=int(input("input the number of the students: "))
 d={}
 result_key=[]
 for i in range(0,n):
-    key=input("input the name:      ")
-    value=float(input ("input the score:      "))
+    key=input("input the name: ")
+    value=float(input ("input the score: "))
     d[key]=value  
 e = {k: v for k, v in sorted(d.items(), key=lambda item: item[1])}
 first_val = list(e.values())[0]

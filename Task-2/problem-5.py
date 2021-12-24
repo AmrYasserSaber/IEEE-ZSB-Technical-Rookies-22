@@ -9,6 +9,6 @@ def insertionSort(list):
         list[j + 1] = index
 
 
-x=list(map(int,input("please input the list"     ).split()))
+x=list(map(int,input("please input the list").split()))
 insertionSort(x)
 print(x)

@@ -1,4 +1,4 @@
-W=input("please input the word you want to check:     ")
+W=input("please input the word you want to check:")
 W=W.lower()
 W=list(W)
 n=True
