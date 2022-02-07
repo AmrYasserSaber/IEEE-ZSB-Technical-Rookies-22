@@ -1,9 +1,9 @@
 n=int(input())
 l=list(map(int,(input().split())))
-sum=0
-max=max(l)
+s=0
+m=max(l)
 for i in set(l):
-    if i >max:
+    if i >m:
         break
-    sum=sum+l.count(i)//2
-print(sum)
+    s=s+l.count(i)//2
+print(s)

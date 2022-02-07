@@ -1,9 +1,10 @@
 import random
+import string
 n=str(random.randint(100,999))
 l_lowercase=[]
 l_capital=[]
-letters=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-capital_letters=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+letters=string.ascii_lowercase 
+capital_letters=string.ascii_uppercase
 spechial_symple=[ "@", "#", "$", "%", "&"]
 for i in range(0,3):
     l=random.randint(0,25)
