@@ -1,12 +1,12 @@
 def getMoneySpent(b,n,m):
-    sum=0
+    s=0
     for i in n:
         for k in m:
-            if sum<i+k and i+k <b:
-                sum=i+k
-    if sum == 0:
+            if s<i+k and i+k <b:
+                s=i+k
+    if s == 0:
         return("-1")
-    return(sum)
+    return(s)
 a=list(map(int,(input().split())))
 b=a[0]
 n=list(map(int,(input().split())))
