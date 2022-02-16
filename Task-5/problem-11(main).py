@@ -8,6 +8,7 @@ for testcases in range(int(input())):
 
    for friend in friends:                                                      
 
+
        while remove_count and stack and stack[-1] < friend:                      
 
            stack.pop()                                                          
