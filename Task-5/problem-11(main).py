@@ -16,4 +16,4 @@ for testcases in range(int(input())):
 
        stack.append(friend)                                                    
 
-   print(' '.join(map(str, stack)))
+   print(' '.join(map(str,stack)))

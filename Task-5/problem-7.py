@@ -23,14 +23,3 @@ for topic_i in range(n):
     topic.append(topic_t)
 
 print("\n".join(map(str, solution())))
-
-
-
-
-
-
-
-
-
-    
-
